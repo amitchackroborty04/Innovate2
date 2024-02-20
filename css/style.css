@@ -1,0 +1,927 @@
+/* font-family: 'Chivo', sans-serif;
+font-family: 'DM Sans', sans-serif; */
+/* ===================common css start========================= */
+.container {
+    max-width: 1410px;
+    margin: 0 auto;
+}
+
+/* ==================common css end=============================== */
+/* ==================navbar start==================================== */
+nav {
+    position: absolute !important;
+    width: 100%;
+}
+
+.nav-link {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav_loging {
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 200%;
+    color: #FFFFFF;
+}
+
+.nav_btn {
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #2C2643;
+    padding: 20px 48px;
+    background: #43E7DF;
+    border-radius: 6px;
+    margin-left: 36px;
+}
+
+/* ==================navbar end===================================== */
+/* ==================banner start================================== */
+#banner {
+    background: url('../image/BG\ Shape.png') no-repeat center;
+    background-size: cover;
+    padding-top: 204px;
+    padding-bottom: 550px;
+
+
+}
+
+.container h1 {
+    font-family: 'Chivo', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 796px;
+    margin: 0 auto;
+}
+
+.container p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 467px;
+    margin: 0 auto;
+    letter-spacing: -0.25%;
+    margin-top: 20px;
+}
+
+.input_area {
+    text-align: center;
+    position: relative;
+    width: 480px;
+    margin: 0 auto;
+    margin-top: 32px;
+
+
+}
+
+.input_area input {
+    padding: 20px 24px;
+    width: 480px;
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+
+
+}
+
+.input_area input::placeholder {
+    font-family: 'Chivo', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #B4B6C4;
+}
+
+.input_area a {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #2C2643;
+    padding: 15px 28px;
+    background: #43E7DF;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+
+}
+
+.banner_img {
+    position: relative;
+}
+
+.banner_img img {
+    position: absolute;
+    left: 45%;
+    transform: translateX(-50%);
+    top: 98px;
+}
+
+
+/* ===================banner end================================== */
+/* ====================platform staert ====================== */
+#platform {
+    margin-top: 356px;
+
+}
+
+.div_1 h2 {
+    font-family: 'Chivo', sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: -1px;
+    color: #2C2643;
+}
+
+.div_2 p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.25%;
+    color: #645E76;
+    width: 530px;
+}
+
+.pltfrom_box h3 {
+    font-family: 'Chivo', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #2C2643;
+    letter-spacing: 0px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 26px;
+}
+
+.pltfrom_box p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #645E76;
+    letter-spacing: -0.25%;
+    width: 300px;
+    margin-top: 12px;
+
+}
+
+.pltfrom_box {
+    text-align: center;
+    position: relative;
+}
+
+.dwon {
+    margin-top: 116px;
+}
+
+.arrow {
+    position: absolute;
+    top: 29px;
+    right: -152px;
+}
+
+.arrow2 {
+    position: absolute;
+    top: 5px;
+    right: -150px;
+}
+
+/* ====================platform end====================== */
+/* ====================features start===================== */
+#features {
+    margin-bottom: 155px;
+}
+
+.future_img {
+    width: 600px;
+
+}
+
+.dwon2 {
+    margin-top: 160px;
+
+}
+
+.future_title {
+    font-family: 'Chivo', sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 68px;
+    letter-spacing: -1px;
+    color: #2C2643;
+    margin-top: -20px;
+
+}
+
+.right_div h5 {
+    font-family: 'Chivo', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: -0.5%;
+    color: #2C2643;
+    margin-top: 14px;
+
+}
+
+.right_div p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #645E76;
+    width: 220px;
+    margin-left: 0;
+    text-align: left;
+    margin-top: 6px;
+}
+
+.right_div {
+    margin-top: 15px;
+}
+
+.button {
+    padding: 20px 48px;
+    background: #3639A4;
+    border-radius: 6px;
+    width: 196px;
+    margin-top: 81px;
+}
+
+.button a {
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+/* ====================features end======================== */
+/* ==================apps start========================= */
+#apps {
+    background: #F4FAFA;
+    padding: 100px 0;
+}
+
+.apps_leftdiv h6 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FF7364;
+}
+
+.apps_leftdiv h4 {
+    font-family: 'Chivo', sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: -1px;
+    color: #2C2643;
+    margin-top: 4px;
+}
+
+.apps_leftdiv p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.25%;
+    color: #645E76;
+    width: 533px;
+    text-align: left;
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+.apps_leftdiv a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 48px;
+    border-radius: 6px;
+    background: #3639A4;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+.apps_img {
+    width: 627px;
+}
+
+/* ==================apps end========================= */
+/* ==================Works start============================ */
+#work {
+
+    margin-top: 104px;
+}
+
+.work_title {
+    text-align: center;
+}
+
+.work_title h3 {
+    color: #FF7364;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.work_title h2 {
+    color: #2C2643;
+    font-family: Chivo;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58px;
+}
+
+.work_div1 {
+    width: 330px;
+    height: 362px;
+    border: 1px solid#DCE7FE;
+    border-radius: 20px;
+    background: #fff;
+    padding-top: 36px;
+    padding-bottom: 36px !important;
+    padding-left: 36px;
+    margin-top: 80px;
+    transition: .4s;
+}
+
+.work_div1 h3 {
+    color: #2C2643;
+    font-family: Chivo;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    margin-top: 26px;
+
+}
+
+.work_div1 h5 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.25%;
+    color: #645E76 !important;
+    width: 258px !important;
+    margin-top: 8px;
+
+
+}
+
+.work_btn {
+    text-decoration: none;
+    margin-top: 26px;
+    color: #3639A4;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    display: inline-block;
+}
+
+.work_div1:hover {
+    background: #3639A4;
+    color: #FFFF !important;
+}
+
+.work_div1:hover.work_div1 h3 {
+    color: #FFFF;
+}
+
+.work_div1:hover.work_div1 h5 {
+    color: #FFFF !important;
+}
+
+.work_div1 .work_btn {
+    color: #ffff;
+}
+
+.work_button2 {
+    color: #FF7364;
+
+}
+
+.amit {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.work_btn2 {
+    color: #3639A4;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    border: 2px solid#6241D4;
+    border-radius: 6px;
+    padding: 20px 48px;
+    transition: .4s;
+}
+
+.work_btn2:hover {
+    background: #3639A4;
+    color: #FFFF;
+}
+
+/* ===================Works end================================= */
+/* =====================customers start=================== */
+#customer {}
+
+.customer_img {
+    margin-top: 140px;
+}
+
+/* =====================customers end=================== */
+/* ======================Business startt======================= */
+#business {
+
+    margin-top: 121px;
+}
+
+.business_title {
+    text-align: center;
+}
+
+.business_title h3 {
+    color: #2C2643;
+    font-family: Chivo;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58px;
+    width: 624px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.bus_d1 h5 {
+    color: #3639A4;
+    font-family: Chivo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+
+.bus_d3 h6 {
+    color: #645E76;
+    font-family: Chivo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: capitalize;
+    margin-left: 24px;
+}
+
+.bus_d2 {
+    margin-left: 24px;
+}
+
+.business_main {
+    width: 450px;
+    /* height: 698px; */
+    border-radius: 15px;
+    border: 1px solid#DCE7FE;
+    margin-top: 70px;
+    padding-top: 40px;
+    transition: .4s;
+}
+
+.business_sub {
+    text-align: center;
+
+    margin-bottom: 40px;
+}
+
+.business_sub h4 {
+    color: #3639A4;
+    font-family: Chivo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    margin-top: 32px;
+}
+
+.business_sub h2 {
+    color: #2C2643;
+    font-family: Chivo;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: -0.88px;
+}
+
+.business_sub h5 {
+    color: #645E76;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    margin-top: 14px;
+
+}
+
+.business_sub span {
+    color: #3639A4;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.flex3 {
+    display: flex;
+
+}
+
+.sub_d2 {
+    margin-left: 22px;
+
+}
+
+.sub_div2 {
+    margin-left: 60px;
+}
+
+.sub_d2 h6 {
+    color: #645E76;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.postion {
+    margin-top: 26px;
+}
+
+.sub_div3 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.business_btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 104px;
+    background: #3639A4;
+    border-radius: 6px;
+    color: #FFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 40px;
+
+}
+
+.business_main:hover {
+    background: #3639A4;
+}
+
+.business_main:hover .business_sub h4 {
+    color: #43E7DF;
+}
+
+.business_main:hover .business_sub h2 {
+    color: #fff;
+}
+
+.business_main:hover .business_sub h5 {
+    color: #fff;
+}
+
+.business_main:hover .business_sub span {
+    color: #fff;
+}
+
+.business_main:hover .sub_d2 h6 {
+    color: #fff;
+}
+
+.business_main:hover .business_btn {
+    background: #43E7DF;
+}
+
+/* =====================Business end=========================== */
+/* ========================about start========================== */
+#about {
+
+    margin-top: 179px;
+    background: #F4FAFA;
+    position: relative;
+    overflow: hidden;
+}
+
+.work_sub {
+    padding: 200px 0;
+}
+
+.work_sub h3 {
+    color: #2C2643;
+    font-family: Chivo;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58px;
+    width: 594px;
+}
+
+.work_sub h6 {
+    color: #645E76;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.045px;
+    margin-top: 20px;
+    width: 503px;
+}
+
+.about_btn {
+    text-decoration: none;
+    display: inline-block;
+    color: #000000;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    border: 2px solid #6241D4;
+    padding: 20px 48px;
+    border-radius: 6px;
+    margin-top: 40px;
+    transition: .4s;
+}
+
+.about_btn:hover {
+    background: #3639A4;
+    color: #fff;
+}
+
+.flex4 {
+    display: flex;
+    margin-top: 85px;
+}
+
+.work_subd1 {
+    margin-left: 30px;
+}
+
+.about_sub2 {
+    width: 687px;
+    height: 346px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.about_subd2 h3 {
+    color: #6C6E81;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+    text-transform: capitalize;
+    width: 567px;
+}
+
+.about_subd2 h2 {
+    color: #30344E;
+    font-family: Chivo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 37px;
+}
+
+.flex5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wsub_div1 h4 {
+    color: #30344E;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.about_subd2 {
+    padding: 60px 64px;
+}
+
+.postion2 {
+    position: absolute;
+    top: -161px;
+}
+
+.butom {
+    margin-top: 120px;
+    position: relative;
+}
+
+.imgclecle {
+    position: absolute;
+    top: -99px;
+    left: 48px;
+}
+
+/* ========================about end================================= */
+/* ========================contact start========================== */
+#contact {
+
+    margin-top: 160px;
+}
+
+.contact_main {
+    width: 1410px;
+    height: 316px;
+    border-radius: 20px;
+    background: url('../image/contactimg.png') no-repeat center/cover;
+}
+
+.flex6 {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.con_d1 {
+    margin-left: 102px;
+}
+
+.con_d1 h3 {
+    color: #FFF;
+    font-family: Chivo;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58px;
+    width: 577px;
+    padding: 100px 0;
+
+}
+
+.contact_btn {
+    text-decoration: none;
+    display: inline-block;
+    color: #2C2643;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 20px 48px;
+    background: #fff;
+    border-radius: 6px;
+    transition: .4s;
+}
+
+.contact_btn:hover {
+    background-color: #43E7DF;
+    color: #fff;
+
+}
+
+.con_d2 {
+    margin-left: 437px;
+}
+
+/* ==========================contact end========================== */
+/* =========================fotter start========================= */
+#fotter {
+    margin-bottom: 100px;
+    margin-top: 95px;
+}
+
+.fsub_d1 h5 {
+    color: #645E76;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 263px;
+    margin-top: 26px;
+    margin-bottom: 24px;
+}
+
+.fsub_d2 h4 {
+    color: #2C2643;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 26px;
+
+
+}
+
+.fsub_d2 h6 {
+    color: #645E76;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 12px;
+
+}
+
+.fsub_d2 h2 {
+    color: #645E76;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+.mailbox2{
+    width: 269px;
+    height: 46px;
+    padding: 16px 12px;
+    margin-top: 32px;
+}
+.mailbox2 ::placeholder {
+    color: #A1A2A3;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    position: relative;
+   
+   
+}
+.fotter_mailbox{
+    position: relative;
+}
+.icon4{
+    position: absolute;
+    top: 36px;
+    right: 74px;
+}
+
+/* ========================fotter end======================= */

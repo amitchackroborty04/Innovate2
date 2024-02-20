@@ -1,0 +1,157 @@
+@media (min-width:320px) and (max-width:575px){
+    .container h1 {
+        font-family: 'Chivo', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        color: #FFFFFF;
+        text-align: center;
+        width: auto;
+        margin: 0 auto;
+    }
+    .container p {
+        width: auto;
+    }
+    .input_area {
+        width: auto;
+    }
+    .input_area input {
+        padding: 20px 24px;
+        width: auto;
+        width: auto;
+        border-radius: 6px;
+        border: none;
+    }
+    .input_area input::placeholder{
+        font-size: 14px;
+    }
+    .input_area a {
+        font-size: 18px;
+        padding: 15px 28px;
+        top: 77px;
+        right: 67px;
+    }
+    .banner_img2{
+        width: 100%;
+    }
+    .div_1 h2 {
+        font-size: 30px;
+        line-height: 41px;
+    }
+    .div_2 p {
+        font-size: 14px;
+        line-height: 27px;
+        width: auto;
+    }
+    .arrow{
+        display: none;
+    }
+    .arrow2{
+      display: none;
+    }
+    .pltfrom_box p {
+        font-size: 14px;
+        line-height: 24px;
+        width: auto;
+    }
+    .pltfrom_box{
+        margin-top: 38px;
+    }
+    .future_img{
+        width: 100%;
+    }
+    .future_title {
+        font-size: 25px;
+        line-height: 37px;
+        margin-top: 40px;
+    }
+    .right_div p {
+        font-size: 16px;
+    }
+    .apps_leftdiv h4 {
+        font-size: 30px;
+        line-height: 37px;
+    }
+    .apps_leftdiv p {
+        font-size: 14px;
+        line-height: 22px;
+      
+    }
+    .button a {
+        font-size: 14px;
+    }
+    .button {
+        padding: 14px 100px;
+       
+        width: 100%;
+        margin-top: 81px;
+    }
+    .apps_leftdiv a {
+        padding: 17px 100px;
+        font-size: 14px;
+    }
+    .apps_img{
+        width: 100%;
+        margin-top: 27px;
+    }
+    .work_div1 {
+        width: auto;
+        
+    }
+    .customer_img{
+        width: 100%;
+    }
+    .work_title h2 {
+        font-size: 33px;
+    }
+    .business_title h3 {
+        font-size: 23px;
+        line-height: 32px;
+        width: auto;
+        margin: 0 auto;
+    }
+    .bus_d1 h5 {
+        font-size: 18px;
+    }
+    .bus_d3 h6 {
+        font-size: 18px;
+    }
+    .business_main {
+        width: auto;
+    }
+    .business_btn {
+        font-size: 12px;
+    }
+    .sub_d2 h6 {
+        font-size: 14px;
+    }
+    .business_btn {
+        padding: 14px 54px;
+    }
+    .work_sub h3 {
+        color: #2C2643;
+        font-family: Chivo;
+        font-size: 33px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 38px;
+        width: auto;
+    }
+    .about_sub2 {
+        width: 100%;
+    }
+    #about{
+       overflow: unset;
+    }
+    #contact{
+        margin-top: 2000px;
+    }
+    .postion2 {
+        position: absolute;
+        top: 864px;
+    }
+    .work_sub h6 {
+        font-size: 18px;
+        width: auto;
+    }
+}
